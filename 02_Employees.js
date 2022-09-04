@@ -15,9 +15,7 @@ fetch("./src/Homework5-employees.json")
 
         html += htmlSegment;
       };
-      return employees;
     })
-    employees.length = 10;
     let container = document.querySelector('.container');
     container.innerHTML = html;
   })
