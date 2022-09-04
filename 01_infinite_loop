@@ -1,0 +1,8 @@
+async function infiniteLoop() {
+    while (true) {
+        await new Promise(resolve => setTimeout(resolve, 500));
+        console.log("plus");
+    }
+}
+// infiniteLoop();
+console.log("minus");
